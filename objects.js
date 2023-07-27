@@ -70,3 +70,10 @@ var another_student = Object.create(student);
 another_student.firstName = "Washington";
 another_student["middle-name"] = "junior";
 another_student.nickname = "Jasberry";
+
+// REFLECTION
+// typeof operator is very helpful in determining the type of a property
+typeof flight.number; // number
+typeof flight.status; // string
+typeof flight.arrrival; // object
+typeof flight.manifest; // undefined
